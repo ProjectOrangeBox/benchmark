@@ -5,7 +5,7 @@ Lightweight static helper for timing code and measuring memory usage between two
 ## Example
 
 ```php
-use peels\benchmark\Benchmark;
+use orange\benchmark\Benchmark;
 
 Benchmark::mark('start');
 

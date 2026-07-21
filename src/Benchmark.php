@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace peels\benchmark;
+namespace orange\benchmark;
 
 use InvalidArgumentException;
 

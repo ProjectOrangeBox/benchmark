@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "peels\\benchmark\\": "src/"
+            "orange\\benchmark\\": "src/"
         }
     },
     "minimum-stability": "dev",
