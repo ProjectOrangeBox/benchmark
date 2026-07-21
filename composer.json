@@ -1,0 +1,30 @@
+{
+    "name": "orange/benchmark",
+    "description": "Micro-level timing and memory measurement helpers.",
+    "type": "library",
+    "homepage": "https://github.com/ProjectOrangeBox/benchmark",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Don Myers",
+            "email": "donmyers@me.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ProjectOrangeBox/benchmark/issues",
+        "source": "https://github.com/ProjectOrangeBox/benchmark"
+    },
+    "require": {
+        "php": ">=8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "peels\\benchmark\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
