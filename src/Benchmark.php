@@ -52,8 +52,8 @@ class Benchmark
     {
         self::checkMarkers(self::$timeMarkers, $mark1, $mark2);
 
-        list($startmark, $startSeconds) = explode(' ', self::$timeMarkers[$mark1]);
-        list($endmark, $endSeconds) = explode(' ', self::$timeMarkers[$mark2]);
+        [$startmark, $startSeconds] = explode(' ', self::$timeMarkers[$mark1]);
+        [$endmark, $endSeconds] = explode(' ', self::$timeMarkers[$mark2]);
 
         return number_format(($endmark + $endSeconds) - ($startmark + $startSeconds), $decimals);
     }
