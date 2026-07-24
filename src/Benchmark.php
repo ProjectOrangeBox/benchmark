@@ -55,7 +55,7 @@ class Benchmark
         [$startmark, $startSeconds] = explode(' ', self::$timeMarkers[$mark1]);
         [$endmark, $endSeconds] = explode(' ', self::$timeMarkers[$mark2]);
 
-        return number_format(($endmark + $endSeconds) - ($startmark + $startSeconds), $decimals);
+        return number_format(((float) $endmark + (float) $endSeconds) - ((float) $startmark + (float) $startSeconds), $decimals);
     }
 
     /**
